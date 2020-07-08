@@ -100,7 +100,9 @@ If this type was chosen, convert the user’s name to numbers and return the sum
 
 #### How a surprise chosen
 ●   **If one or more surprises shuold be retrieved** - retrieve randomaly one of them
+
 ●   **If an error occurs while the api is trying to get the selected surprise** - another avalible surprise retrieve.
+
 ●	**If no surprise response was selected** - return a 404 status code with a ‘No surprise for you!’ message.
 
 #### Optinal surprises by name and birth_year (table)
